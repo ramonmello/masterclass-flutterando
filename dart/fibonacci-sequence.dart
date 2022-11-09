@@ -1,12 +1,6 @@
 void main() {
   void fib(int prev, int next) {
-    print(prev);
-
-    if(prev > 1000) {
-      return;
-    }
-
-    fib(next, prev + next);
+   // fibonacci sequence
   }
 
   fib(0, 1);
